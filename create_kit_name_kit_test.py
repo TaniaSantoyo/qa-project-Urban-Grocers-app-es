@@ -61,7 +61,7 @@ def test_create_kit_has_number():
 
     # Prueba 8
 # Prueba 8
-def test_create_kit_0_letters(x):
+def test_create_kit_0_letters():
     kit_body = {}
     negative_assert_code_400(kit_body)
 
