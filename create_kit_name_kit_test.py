@@ -60,11 +60,12 @@ def test_create_kit_has_number():
     positive_assert_kit(kit)
 
     # Prueba 8
-def test_create_kit_0_letters():
-    kit = get_kit_body("")
-    negative_assert_code_400(kit)
+# Prueba 8
+def test_create_kit_0_letters(x):
+    kit_body = {}
+    negative_assert_code_400(kit_body)
 
-        # Prueba 9
+# Prueba 9
 def test_create_kit_has_number_get_error_response():
     kit = get_kit_body(123)
     negative_assert_code_400(kit)
